@@ -8,6 +8,7 @@
 		<version>3.5.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>com.practice</groupId>
 	<artifactId>AdminServiceServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -26,32 +27,34 @@
 		<tag/>
 		<url/>
 	</scm>
+	
 	<properties>
 		<java.version>21</java.version>
 		<spring-boot-admin.version>3.5.6</spring-boot-admin.version>
 	</properties>
+	
 	<dependencies>
-		<dependency>
+		<dependency>##################################################################SPRING WEB################################################
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
+		<dependency>##################################################################ADMIN SERVER##############################################
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
 		</dependency>
-
-		<dependency>
+		<dependency>##################################################################DEV TOOLS#################################################
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
+		<dependency>##################################################################TEST######################################################
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
