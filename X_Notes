@@ -1,0 +1,5 @@
+1.@EnableAdminServer on Main class
+2.Add the Dependencies
+3.Add the Application.props
+  spring.application.name=AdminServiceServer
+  server.port=8762
